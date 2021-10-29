@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<!--This where i styled the body gave it a background color, border e.t.c-->
+<body style="background-color: darkgray;border: 10px burlywood groove; text-align: center; width: 50%; margin: auto;">
+    <form name="calculator">
+        <fieldset>
+            <legend><span><b>ADEOLA'S CALCULATOR</b></span></legend>
+<!--This is the code to get the input of our user-->
+<!--Then this is where the user inputs his/her first integer-->
+        <label for="integer"><span style="font-family: cursive;"><b>Input a number</b></span>:</label><br>
+        <input type="text" name="number" id="nmber" placeholder="firstNumber:"   required><br>
+<!--Then this is where the user inputs his/her second integer-->        
+        <label form="number"><span style="font-family: cursive;"><b>Input a number</b></span>:</label><br>
+        <input type="number" name="integ" id="num" placeholder="SecondNumber:" required><hr><br>
+        
+        </fieldset>
+            
+  <!--this is the container which holds the codes for the operators which is given a name of operators whereby when its being called upon its is called by the name-->
+  <div id="operators">
+   <!--this is the addition code which gives us the button for addition-->
+    <input type="button" name="addition" id="plus" value="+">
+    <!--this is the subtraction code which gives us the button for subtraction-->
+    <input type="button" name="subtraction" id="minus" value="-">
+    <!--this is the division code which gives us the button for division-->
+    <input type="button" name="division" id="divide" value="/">
+    <!--this is the multiplication code which gives us the button for multiplication-->
+    <input type="button" name="multiplication" id="multiply" value="*">
+   <!--this is the modulus code which gives us the button for modulus-->
+    <input type="button" name="modulous" id="modulus" value="%">
+  </div><br>  
+ 
+<!--this is where we get the output of our answer-->
+<div id="answer">
+    <label for="answer"><span style="font-family: cursive;"><b>answer</b></span></label><br>
+        <input type="text" name="answer" class="ans" placeholder="answer:"><br>
+</div>
+</form><br>
+
+</body>
+</html>

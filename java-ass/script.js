@@ -1,0 +1,15 @@
+let userinput = prompt("think of a number");
+let userage = prompt("what is your age");
+let firstname= "durodola";
+let lastname = "adeola";
+let userpass =  prompt ("user password"); 
+let username = lastname + "12";
+let confirm2 = confirm ("are you sure");
+let alert1 = alert ("are you ready");
+let fullname = firstname + " " + lastname;
+let logic = userinput * 2;
+let result =logic / 2;
+console.log("this is "  + username + " " +  fullname + " "+ confirm2 + " "+ result);
+const str =  username + " " +  fullname + " "+ confirm2 + " "+ result;
+const str2 = str.toUpperCase();
+console.log (str2);
